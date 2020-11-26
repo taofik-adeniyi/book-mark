@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-name-wrapper {
+    margin: 2rem 0 0 10rem;
+}
+.nav-bar-wrapper {
+    /* margin-right: calc(5% + 5px); */
+    color: yellow;
+    margin: 2rem 8rem 0 0;
+}
+.nav-bar-wrapper nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-bar-wrapper nav ul li {
+    float: left;
+    width: 8rem;
+}
+.nav-bar-wrapper nav ul li a {
+    text-decoration: none;
+}
+.download {
+    display: flex;
+    margin-top: 2rem;
+}
+.download-left-container {
+    margin-left: 10rem;
+}
+.download-left-container img {
+    width: 30rem;
+}
+.download-right-container {
+    margin: 2rem 0 0 5rem;
+    width: 40%;
+}
+.download-context {
+    color: hsl(229, 8%, 60%);
+}
+.left-container {
+    margin: 2rem 0 0 10rem;
+}
+.left-container h1 {
+    margin-top: 4rem;
+}
+.left-container p {
+    padding-right: 7rem;
+}
+.left-container button {
+    padding: 0.6rem 0.9rem;
+    font-size: 13px;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 11px;
+}
+.right-container img {
+    width: 35rem;
+    margin: 2rem 5rem 0 0;
+}
+.border-color {
+    width: 30rem;
+    height: 15rem;
+    border-radius: 0 0 0 80px;
+    margin: -250px auto;
+    background-color: blue;
+}
+.sub-features-wrapper {
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.features {
+    margin-top: 2rem;
+}
+.features-nav {
+    display: flex;
+    margin: 0.5rem auto;
+    justify-content: space-between;
+    width: 40%;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 1.2rem 1.5rem 0.9rem;
+}
+.download-extension {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 2rem 25rem 0 25rem;
+}
+.download-extension p {
+    color: hsl(229, 8%, 60%);
+}
+.all-browsers {
+    margin: 5rem auto;
+    width: 55%;
+}
+.browsers {
+    display: flex;
+    justify-content: space-between;
+}
+.browser-list {
+    width: 210px;
+    height: 300px;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+             text-align: center;
+}
+.browser-list-img {
+    margin-top: 40px;
+}
+.version {
+    color: hsl(229, 8%, 60%);
+}
+.browser-dot {
+    margin-bottom: 5px;
+    width: 100%;
+}
+.add-btn {
+    border: none;
+    color: #ffffff;
+    background-color: hsl(231, 69%, 60%);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+/* .chrome-list {
+} */
+.firefox-list {
+    margin-top: 50px;
+}
+.opera-list {
+    margin-top: 100px;
+}
+/* .browser-name {
+    border-bottom: 3px dotted #cccccc;
+} */
+.faq {
+    text-align: center;
+}
+.faq ul {
+    list-style: none;
+}
+.sub-footer {
+    background-color: hsl(231, 69%, 60%);
+    text-align: center;
+    color: white;
+}
+.under-sub-footer {
+    width: 35%;
+    margin: 0 auto;
+}
+.already-joined {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2rem 0 1.1rem 0;
+}
+.up-to-date {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0 4.5rem 1.1rem 4.5rem;
+}
+.form-control {
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+input {
+    width: 56%;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+}
+.submit {
+    height: 35px;
+    /* padding: 1rem; */
+}
+.footer {
+    display: flex;
+    background-color: hsl(229, 31%, 21%);
+}
+.footer-nav {
+    display: flex;
+    margin: 1rem 0 1rem 0;
+}
+.footer-nav img {
+    margin-left: 10rem;
+}
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-nav ul li {
+    list-style: none;
+    float: left;
+    width: 6rem;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+}
+.socials {
+    margin: 1rem 0 0 40%;
+    display: flex;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+}
+.left-container img {
+    width: 35rem;
+}
+.get-chrome {
+    background-color:hsl(229, 31%, 21%);
+}
+.get-firefox {
+    background-color: hsl(229, 8%, 60%);
+}
+.btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 11px;
+}
